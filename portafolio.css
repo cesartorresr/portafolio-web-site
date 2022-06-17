@@ -1,0 +1,95 @@
+
+
+.encabezado{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  font-family: 'manaspace';
+  /*border: solid 3px black*/;
+  border-radius: 3px;
+  font-size: 25px;
+  padding: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.container{
+  height: 300px;
+  top: 200px;
+  width: 45%;
+  position: fixed;
+  justify-content:center;
+  align-items: center;
+  margin-top: 8px;
+  /*border: solid 1px red*/
+  display: flex;
+  flex-direction: column;
+  font-family: 'VT323', monospace;
+  font-display: optional;
+  color: white;
+  font-size: large;
+ 
+  padding: 30px;
+}
+
+ p{
+   font-size: 16px;
+ }
+
+.presentation{
+  /*border: solid 1px red */ 
+  margin-left: 50%;
+  margin-top: 3%;
+  padding: 20px;
+  color: white;
+  border: solid 4px white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  
+}
+
+.background {
+  border-radius: 30px;
+  border: solid 4px black;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: 'manaspace';
+  color: white;
+  
+}
+
+.tech{
+  border: solid 4px black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: 'manaspace';
+  color: white;
+}
+
+.hobbies {
+  border: solid 4px black;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: 'manaspace';
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+body {
+  background-image: url('./assets/space.png');
+}
+
+img{
+  width: 200px;
+}
