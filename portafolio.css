@@ -3,7 +3,7 @@
 .encabezado{
   text-decoration: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-decoration: none;
   font-family: 'VT323', monospace;
   /*border: solid 3px black*/;
@@ -19,10 +19,11 @@ a{
 
 
 .container{
-  height: 300px;
+  height: 50%;
   top: 200px;
   width: 45%;
-  position: fixed;
+  bottom: 50%;
+  position: absolute;
   justify-content:center;
   align-items: center;
   margin-top: 8px;
@@ -86,7 +87,8 @@ ul {
 }
 
 body {
-  background-image: url('./assets/space.png');
+  background-image: url('./assets/universe.jpg');
+  background-size: cover;
   font-family: 'VT323', monospace;
 }
 
