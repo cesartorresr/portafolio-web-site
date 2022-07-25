@@ -101,3 +101,15 @@ body {
 img{
   width: 200px;
 }
+
+.cv:hover{
+  color: rgb(5, 148, 204);
+}
+
+.github:hover{
+  color: rgb(5, 148, 204);
+}
+
+.linkedin:hover{
+  color: rgb(5, 148, 204);
+}
